@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("https://img.freepik.com/free-vector/black-grain-surface-texture-with-lights_125540-948.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Add transparency to header background */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.detail-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to box background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of your CSS styles remain the same */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover, /* Change color on hover */
+nav ul li a:active { /* Change color when active (clicked) */
+    color: #ffd700; /* Change to your preferred color */
+}
+
+.profile-image {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 100%;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Specific section styles */
+section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to box background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Footer styles */
+footer p {
+    margin: 0;
+}
+/* Add this to your existing CSS */
+
+/* Add this to your existing CSS */
+
+
+/* .detail-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.detail-box h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.detail-box p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.detail-box ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.detail-box ul li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10;
+}
+#contactform{
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to box background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactform h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#contactform form {
+    margin-top: 20px;
+}
+
+#contactform form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contactform form input[type="text"],
+#contactform form input[type="email"],
+#contactform form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contactform form textarea {
+    height: 100px;
+}
+
+#contactform form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactformform input[type="submit"]:hover {
+    background-color: #555;
+}
+.confirmation {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation h2 {
+    color: #333;
+}
+
+.confirmation p {
+    color: #666;
+}
+
+.confirmation a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.confirmation a:hover {
+    text-decoration: underline;
+}
+#successMessage {
+    display: none;
+    background-color: #dff0d8;
+    border: 1px solid #d0e9c6;
+    color: #3c763d;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
